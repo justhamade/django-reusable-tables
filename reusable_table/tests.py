@@ -1,5 +1,5 @@
 from django.test import TestCase
-from django.contrib.auth.models import User, Group
+from users.models.user import User, Group
 from table import Table
 
 class request:
